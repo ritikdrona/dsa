@@ -7,12 +7,12 @@ Operations
 6. Merging
 
 Data Structures
-1. Arrays
-2. Stacks
-3. Queues
-4. Deques
-5. Heaps
-6. Maps
+1. Arrays - done
+2. Stacks - done
+3. Queues - done
+4. Deques - done
+5. Heaps and Priority Queues
+6. Maps - done
 7. Linked List
 8. Trees
     - Binary Trees
@@ -33,4 +33,4 @@ Concepts
 1. Recursion
 2. Backtracking
 3. Hashing
-4. Encryptions (RSA, AES)s
+4. Encryptions (RSA, AES)
