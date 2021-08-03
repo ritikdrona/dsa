@@ -1,12 +1,13 @@
 package stacks;
 
 public class IntegerStack {
+
     Integer[] stack = {};
 
     void push(Integer toPush) {
         Integer[] old = stack.clone();
         stack = new Integer[old.length + 1];
-        for(int i = 0; i < old.length; i++) {
+        for (int i = 0; i < old.length; i++) {
             stack[i] = old[i];
         }
         stack[old.length] = toPush;
@@ -24,7 +25,7 @@ public class IntegerStack {
     @Override
     public String toString() {
         String r = "Stack: ";
-        for(Integer i: stack) {
+        for (Integer i : stack) {
             r += i + " ";
         }
         if (stack.length == 0) {
@@ -44,4 +45,5 @@ public class IntegerStack {
         System.out.println(stack.pop());
         System.out.println(stack);
     }
+
 }

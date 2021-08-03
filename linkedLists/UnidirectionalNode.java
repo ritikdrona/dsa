@@ -1,24 +1,14 @@
 package linkedLists;
 
-public class UnidirectionalNode<T extends Object> {
+public class UnidirectionalNode<T> extends Node<T> {
 
-    T data;
+    Node<T> next;
 
-    UnidirectionalNode<T> next;
-
-    public T getData() {
-        return data;
-    }
-
-    public void setData(T data) {
-        this.data = data;
-    }
-
-    public UnidirectionalNode<T> getNext() {
+    public Node<T> getNext() {
         return next;
     }
 
-    public void setNext(UnidirectionalNode<T> next) {
+    public void setNext(Node<T> next) {
         this.next = next;
     }
     
